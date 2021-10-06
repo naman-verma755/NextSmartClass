@@ -1,0 +1,167 @@
+
+.people-flex-row {
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row;
+
+}
+.people-main {
+    width:98%;
+    height: 97%;
+   
+    color:white;
+    margin:5px 5px;
+    padding:5px 5px;
+    
+  
+    
+} 
+
+
+.people-main-first {
+    width:20%;
+    height:100%;
+    /* background-color:aqua; */
+    color:rgb(9, 73, 73);
+    padding: 10px 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.people-main-second {
+    width:50%;
+    height:100%;
+   
+    margin-left: 20px;
+
+    
+}
+
+.people-main-third {
+    width:42%;
+    height:100%;
+  
+    margin-left: 20px;
+}
+.people-hr {
+    margin: 0px 10px;
+}
+
+.people-main-first-p1 {
+    height: 19%;
+}
+
+.people-main-first-p2 {
+     height: 83%;
+}
+
+
+.people-div1 {
+     
+    height: 40px;
+    margin-left: 25px;
+        padding-left: 20px;
+        overflow: auto;
+        flex:auto;
+}
+.people-div1 ul li {
+    list-style-type: disc;
+}
+
+.people-div2 {
+    
+        height: 91%;
+       
+        margin-left: 25px;
+        padding-left: 20px;
+        overflow: auto;
+        flex:auto;
+        
+    }
+
+
+    .people-main-second-sub2 {
+        height: 83%;
+      
+        font-size: medium;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:rgb(9, 73, 73);
+      
+        padding-left: 20px;;
+        overflow: auto;
+        flex: auto;
+    }
+
+  
+
+    .people-main-second-sub1 {
+        height: 10%;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+
+    }
+  
+
+    .people-textarea {
+        width: 90%;
+        height: 100%;
+        border-radius: 5px;
+        font-size: medium;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        resize: none;
+       
+        padding: 2px 5px;
+
+    }
+
+    .people-button {
+        width: 10%;
+        font-size: medium;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+       
+        
+    }
+
+    @media only screen and (max-width: 700px) {
+   
+     
+        .people-main {
+            display: none;
+          
+        }
+         .people-main-second {
+      width: 100%;
+        
+    }
+    
+    .people-main-third {
+        width: 100%;
+     
+    }
+    .people-main-first {
+        width: 100%;
+     
+    }
+
+    
+    
+    }
+
+    
+
+@media only screen and (min-width: 701px) {
+    .ant {
+        display: none;
+    }
+    .people-main2 {
+        display: none;
+    }
+    
+
+
+}
+

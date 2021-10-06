@@ -1,0 +1,29 @@
+
+.login-form-details{
+    background:none;
+    outline: none;
+    margin-bottom: 15px;
+
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.googl {
+    background-color: blue;
+}
+
+@media only screen and (max-width: 994px) {
+   .container {
+       width: 80%;
+       height: 85%;
+   }
+    .login-form-details {
+        width: 90%;
+    }
+
+}
