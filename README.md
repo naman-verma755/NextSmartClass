@@ -1,4 +1,4 @@
-# Peersapp
+# NEXT
 
 ### [Live App](https://nextsmartclass.netlify.com)
 
