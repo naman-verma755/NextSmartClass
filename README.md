@@ -1,6 +1,6 @@
 # NEXT
 
-### [Live App](https://nextsmartclass.netlify.com)
+### [Live App](https://nextsmartclass.netlify.com) (Login as a student and then use 1633191583909-Physics code to join class to see live demonstration of app)
 
 ![githubimage](https://user-images.githubusercontent.com/61876890/136257095-37a7be07-254c-45e0-8ed4-dd7d6481ea1f.PNG)
 
